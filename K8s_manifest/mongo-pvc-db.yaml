@@ -6,6 +6,6 @@ spec:
   storageClassName: standard
   resources:
     requests:
-      storage: 100Mi
+      storage: 1Gi
   accessModes:
     - ReadWriteOnce
