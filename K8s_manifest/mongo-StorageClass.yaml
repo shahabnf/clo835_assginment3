@@ -6,8 +6,11 @@ metadata:
 provisioner: kubernetes.io/aws-ebs
 parameters:
   type: gp2
+# reclaimPolicy: Delete
 reclaimPolicy: Retain
 allowVolumeExpansion: true
 mountOptions:
   - debug
-volumeBindingMode: Immediate
+# Uncomment the following line if you need to bind the volume Immediately 
+# volumeBindingMode: Immediate
+volumeBindingMode: WaitForFirstConsumer
