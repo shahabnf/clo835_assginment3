@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: mongo-pvc-hp 
 spec:
-  storageClassName: "localstorage"
+  storageClassName: localstorage
   resources:
     requests:
       storage: 1Gi
