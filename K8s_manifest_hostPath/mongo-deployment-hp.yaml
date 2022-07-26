@@ -35,5 +35,5 @@ spec:
       volumes:
       - name: be-mongodb-vol
         persistentVolumeClaim:
-            # Refer to name of "mongodb-pvc_hostPath.yaml"
+            # Refers to name of "mongodb-pvc_hostPath.yaml"
             claimName: mongo-pvc-hp
