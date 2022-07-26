@@ -10,7 +10,7 @@ spec:
       valueFrom: 
         configMapKeyRef:
           name: webapp-config
-          key: COLOR_FROM_ENV
+          key: COLOR_ENV
     name: webapp-color
     # volumeMounts:
     # - name: html
@@ -22,7 +22,7 @@ spec:
   #     mountPath: /usr/share/nginx/html
   #     readOnly: true
     ports:
-    - containerPort: 80
+    - containerPort: 8080
       protocol: TCP
   # volumes:
   # - name: html

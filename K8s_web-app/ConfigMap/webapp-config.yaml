@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: webapp-config
 data:
-  COLOR_FROM_ENV: "darkblue"
+  COLOR_ENV: "darkblue"
