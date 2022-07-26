@@ -6,7 +6,7 @@ spec:
   containers:
   - image: mmumshad/simple-webapp-color
     env:
-    - name: COLOR_FROM_ENV
+    - name: APP_COLOR
       value: "pink"
     name: webapp-color
   #   volumeMounts:

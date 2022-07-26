@@ -6,7 +6,8 @@ spec:
   containers:
   - image: mmumshad/simple-webapp-color
     env:
-    - name: COLOR_FROM_ENV
+    # It will accept APP_COLOR as environment variable (Line 39 app.py)
+    - name: APP_COLOR
       valueFrom: 
         configMapKeyRef:
           name: webapp-config
