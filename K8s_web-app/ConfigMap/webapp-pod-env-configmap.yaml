@@ -14,7 +14,7 @@ spec:
         configMapKeyRef:
           name: webapp-config
           key: COLOR_ENV
-    name: webapp-color-configMap
+    name: webapp-color-configmap
     ports:
     - containerPort: 8080
       protocol: TCP
