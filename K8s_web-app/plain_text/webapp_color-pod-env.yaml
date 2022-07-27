@@ -10,7 +10,7 @@ spec:
     env:
     - name: APP_COLOR
       value: "pink"
-    name: webapp-color
+    name: webapp-color-plainText
     ports:
     - containerPort: 8080
       protocol: TCP
