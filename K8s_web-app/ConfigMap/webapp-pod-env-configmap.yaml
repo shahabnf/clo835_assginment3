@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: webapp-color-env-from-configmap
   labels: 
-    app: webapp
+    app: webapp-cm
 spec:
   containers:
   - image: mmumshad/simple-webapp-color

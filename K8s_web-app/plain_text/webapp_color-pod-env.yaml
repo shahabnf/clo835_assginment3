@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: webapp-color-env
+  name: webapp-color-plaintext
   labels: 
-    app: webapp
+    app: webapp-pt
 spec:
   containers:
   - image: mmumshad/simple-webapp-color
