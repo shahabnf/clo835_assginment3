@@ -3,7 +3,8 @@ kind: Pod
 metadata:
   name: webapp-color-plaintext
   labels: 
-    app: webapp-pt
+    owner: Shahab
+    app: webapp
 spec:
   containers:
   - image: mmumshad/simple-webapp-color
