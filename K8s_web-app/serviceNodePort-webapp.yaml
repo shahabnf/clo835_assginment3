@@ -1,9 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: webapp-pt
+  name: webapp-svc_NP
   labels:
-    app: webapp-pt
+    owner: Shahab
+    app: webapp-svc_NP
 spec:
   # if your cluster supports it, uncomment the following to automatically create
   # an external load-balanced IP for the frontend service.
@@ -11,6 +12,6 @@ spec:
   ports:
   - port: 8080
     targetPort: 8080
-    nodePort: 32765
+    nodePort: 32767
   selector:
-    app: webapp-pt
+    app: webapp
